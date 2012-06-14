@@ -1,0 +1,79 @@
+.pt-slide-show-view-elem img {
+    width: 100%; 
+    height: 100%;
+    display: none;
+}
+
+
+.pt-slide-show-slider-elem {
+    width: 200px;
+    display: none;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.pt-slide-show-slider {
+    background-color: #CCCCCC;
+    height: 5px;
+    position: relative;
+    margin: 0 19px;
+}
+
+.pt-slide-show-slider-left-fix,
+.pt-slide-show-slider-right-fix {
+    background-color: #CCCCCC;
+    height: 5px;
+    width: 19px;
+}
+
+.pt-slide-show-slider-left-fix {
+    float: left;
+}
+
+.pt-slide-show-slider-right-fix {
+    float: right;
+}
+
+.pt-slide-show-slider .ui-slider-handle {
+    background-image: url("/extension/slider/design/slider/images/handle.png");
+    height: 12px;
+    position: absolute;
+    top: -3px;
+    width: 38px;
+    outline: none;
+    cursor: move;
+    margin-left: -19px;
+}
+
+
+.pt-slide-show-progressbar-box {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.pt-slide-show-progressbar-percents,
+.pt-slide-show-progressbar-loading {
+    text-align: right;
+    font-size: 11px;
+    font-family: Verdana,Helvetica,Sans-serif;
+    color: #333333;
+}
+
+.pt-slide-show-progressbar-loading {
+    text-align: center;
+}
+
+.pt-slide-show-progressbar-box .ui-progressbar {
+    height: 8px;
+    text-align: left;
+    overflow: hidden;
+    border: 1px solid #DDDDDD;
+    background-color: #EEEEEE;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.pt-slide-show-progressbar-box .ui-progressbar-value {
+    height: 100%;
+    background-color: #808080;
+}
