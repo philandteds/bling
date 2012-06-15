@@ -23,7 +23,7 @@
 			css:{
 				backgroundImage		: promoIMG.css('backgroundImage'),
 				backgroundPosition	: 'center '+promoIMG.offset().top+'px',
-				height				: $(document).height()
+				height				: '100%'
 			}
 		});
 		

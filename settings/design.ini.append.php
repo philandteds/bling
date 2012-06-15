@@ -36,7 +36,8 @@ FrontendJavaScriptList[]=basic-jquery-slider.min.js
 
 # SPLASH
 FrontendJavaScriptList[]=jquery.splashscreen.js
-FrontendJavaScriptList[]=jquery.splashscreen.init.js
+#FrontendJavaScriptList[]=jquery.splashscreen.init.js
+FrontendJavaScriptList[]=jquery.cookie.js
 
 # SLIDER
 FrontendJavaScriptList[]=https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js
