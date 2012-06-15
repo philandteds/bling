@@ -21,6 +21,9 @@
 {if is_unset($cookieExpiryDays)}
 	{def $cookieExpiryDays = 7}
 {/if}
+{if is_unset($disableCookie)}
+	{def $disableCookie = false()}
+{/if}
 {if is_unset($view_area)}
 	{def $view_area = 'splashscreen'}
 {/if}
@@ -35,14 +38,16 @@
 <script type="text/javascript">
 <!--
 	$(document).ready( function() {ldelim}
-  		if ($.cookie('{$cookieName|wash}') == null){ldelim}
+  		{if $disableCookie|eq(false())}if ($.cookie('{$cookieName|wash}') == null){ldelim}{/if}
   			$('{$selector|wash}').splashScreen( {ldelim}
   				textLayers		: [{$images|implode(',')}],
   				textShowTime	: {$showTime},
 				textTopOffset	: {$topOffset}
   				{rdelim});
+  		{if $disableCookie|eq(false())}
   			$.cookie('{$cookieName|wash}', 'true', {ldelim}expires: {$cookieExpiryDays}{rdelim});
   		{rdelim}
+  		{/if}
   	{rdelim});
 //-->
 </script>

@@ -4,6 +4,9 @@
 														'all_relations', array('common')
 														))}
 {/if}
+{if is_unset($disableCookie)}
+	{def $disableCookie = false()}
+{/if}
 
 {if $related|gt(0)}
 	{def $img_folder = fetch( 'content', 'related_objects', hash( 'object_id', $node.contentobject_id,
@@ -29,5 +32,5 @@
 	{debug-log msg='image urls' var=$image_urls}
 	{debug-log msg='image content' var=$splash_imgs.0.data_map.image.content.original.width}
 	
-	{include uri="design:splash.tpl" images=$image_urls}
+	{include uri="design:splash.tpl" images=$image_urls disableCookie=$disableCookie}
 {/if}
