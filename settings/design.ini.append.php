@@ -10,6 +10,10 @@ FrontendCSSFileList[]=jquery.fancybox.css
 #FrontendCSSFileList[]=jquery.fancybox-buttons.css
 #FrontendCSSFileList[]=jquery.fancybox-thumbs.css
 
+# NIVO SLIDER
+FrontendCSSFileList[]=nivo-slider.css
+FrontendCSSFileList[]=nivo-theme.css
+
 # JQSLIDER
 FrontendCSSFileList[]=basic-jquery-slider.css
 
@@ -29,6 +33,9 @@ FrontendJavaScriptList[]=jquery.fancybox-init.js
 #FrontendJavaScriptList[]=jquery.fancybox-buttons.js
 #FrontendJavaScriptList[]=jquery.fancybox-thumbs.js
 #FrontendJavaScriptList[]=jquery.mousewheel-3.0.6.pack.js
+
+# NIVO SLIDER
+FrontendJavaScriptList[]=jquery.nivo.slider.pack.js
 
 # JQSLIDER
 FrontendJavaScriptList[]=basic-jquery-slider.min.js
