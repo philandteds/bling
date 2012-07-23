@@ -37,7 +37,7 @@
 
 <script type="text/javascript">
 <!--
-	$(document).ready( function() {ldelim}
+	head( function() {ldelim}
   		{if $disableCookie|eq(false())}if ($.cookie('{$cookieName|wash}') == null){ldelim}{/if}
   			$('{$selector|wash}').splashScreen( {ldelim}
   				textLayers		: [{$images|implode(',')}],
