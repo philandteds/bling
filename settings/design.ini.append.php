@@ -47,7 +47,7 @@ FrontendJavaScriptList[]=jquery.splashscreen.js
 FrontendJavaScriptList[]=jquery.cookie.js
 
 # SLIDER
-FrontendJavaScriptList[]=https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js
+FrontendJavaScriptList[]=jquery-ui-1.8.22.custom.min.js
 FrontendJavaScriptList[]=jquery.ui.touch-punch.min.js
 FrontendJavaScriptList[]=jquery.pt-slide-show.js
 
