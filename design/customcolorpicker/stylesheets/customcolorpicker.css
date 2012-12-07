@@ -1,0 +1,79 @@
+﻿/*! Menucool Color Picker v2012.8.30. http://www.menucool.com/color-picker */
+
+span.colorpicker
+{
+    display:none;
+    padding: 4% 0 0% 0;
+    width: 100%;
+    color:#666;
+    text-decoration:none;
+	
+    
+}
+span.colorpicker span
+{
+    float: left;
+    display:block;
+}
+
+span.colorpicker span.clear
+{
+    float: none;
+    clear: both;
+    border: 0;
+    overflow:hidden;
+    height:0;
+    font-size:0;
+}
+        
+span.colorpicker span.colorbox
+{
+    float: left;
+    border:0;
+    cursor: pointer;
+}
+span.colorbox b
+{
+    border:0;
+    display:block;
+    float:left;
+    width:30px;
+    height:30px;
+    margin:4px;
+    overflow:hidden;/*for IE6*/
+    border: 3px solid transparent;
+}
+span.colorbox b.selected
+{
+    border-left:3px solid #39F;
+    border-top:3px solid #39f;
+    border-right:3px solid #39f;
+    border-bottom:3px solid #39f;
+	
+}
+
+span.colorpicker span.hexbox, .colorpicker span.bgbox
+{
+    font-size: normal 10px verdana;
+    height: 1%;
+    
+}
+span.colorpicker span.hexbox
+{
+    margin-left: 1%;
+    color: #666;
+    line-height: 16px;
+}
+span.colorpicker span.bgbox
+{
+    /*width: 20px;
+    border: 1px solid #666;*/
+}
+#size {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 200;
+	margin-left: 0;
+	
+}

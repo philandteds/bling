@@ -26,6 +26,8 @@ FrontendCSSFileList[]=splashscreen.css
 # SLIDER
 FrontendCSSFileList[]=pt-slide-show.css
 
+# CLOUDZOOM
+FrontendCSSFileList[]=cloudzoom.css
 
 [JavaScriptSettings]
 #FrontendJavaScriptList[]=ezjsc::jquery
@@ -54,5 +56,8 @@ FrontendJavaScriptList[]=jquery.cookie.js
 FrontendJavaScriptList[]=jquery-ui-1.8.22.custom.min.js
 FrontendJavaScriptList[]=jquery.ui.touch-punch.min.js
 FrontendJavaScriptList[]=jquery.pt-slide-show.js
+
+# CLOUDZOOM
+FrontendCSSFileList[]=cloudzoom.js
 
 */ ?>
