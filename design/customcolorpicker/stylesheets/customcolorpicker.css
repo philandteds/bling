@@ -63,6 +63,7 @@ span.colorpicker span.hexbox
     margin-left: 1%;
     color: #666;
     line-height: 16px;
+    text-align: left;
 }
 span.colorpicker span.bgbox
 {
