@@ -8,7 +8,18 @@
 .cloudzoom-zoom {
     border:1px solid #888;
     box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
-	
+	overflow: hidden;
+	opacity: 1;
+	width: 409px!important;
+	height: 409px!important;
+	top: 184px;
+	left: 50%;
+	position: absolute;
+}
+.cloudzoom-zoom div {
+		width: 409px!important;
+	height: 409px!important;
+	background: #fff;
 }
 
 
@@ -24,6 +35,8 @@
 }
 img.cloudzoom-gallery {
 border: 1px solid #CCC;
+height: 64px;
+margin-top: 50px!important;
 }
 a.thumb-link {
 		text-decoration: none;
