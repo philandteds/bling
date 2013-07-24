@@ -53,7 +53,7 @@ FrontendJavaScriptList[]=jquery.splashscreen.js
 FrontendJavaScriptList[]=jquery.cookie.js
 
 # SLIDER
-FrontendJavaScriptList[]=jquery-ui-1.8.22.custom.min.js
+#FrontendJavaScriptList[]=jquery-ui-1.9.2.custom.min.js
 FrontendJavaScriptList[]=jquery.ui.touch-punch.min.js
 FrontendJavaScriptList[]=jquery.pt-slide-show.js
 
