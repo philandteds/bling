@@ -34,9 +34,9 @@
 	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.fancybox-inner {
-	width: 100%;
-	height: 100%;
+div.fancybox-inner {
+	width: auto!important;
+	height: 100%!important;
 	padding: 0;
 	margin: 0;
 	position: relative;
@@ -45,7 +45,9 @@
 }
 
 .fancybox-type-iframe .fancybox-inner {
-	-webkit-overflow-scrolling: touch
+	-webkit-overflow-scrolling: touch;
+	width: 650px;
+	height: 650px;
 }
 
 .fancybox-error {
@@ -55,20 +57,29 @@
 	padding: 10px;
 }
 
-.fancybox-image, .fancybox-iframe {
+.fancybox-image {
 	display: block;
-	width: 100%;
-	height: 100%;
+	width: auto;
+	height: auto;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+.fancybox-iframe {
+	display: block;
+	width: 650px;
+	height: 440px;
 	border: 0;
 	padding: 0;
 	margin: 0;
 	vertical-align: top;
 }
 
-.fancybox-image {
+/*.fancybox-image {
 	max-width: 100%;
 	max-height: 100%;
-}
+}*/
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
 	background-image: url('../images/fancybox_sprite.png');
@@ -224,3 +235,19 @@
 	background: #000;
 	background: rgba(0, 0, 0, .8);
 }
+.fancybox-wrap.fancybox-desktop.fancybox-type-image.fancybox-opened {
+	width: auto!important;
+	height: auto!important;
+	top: 100px!important;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened {
+	width: auto!important;
+	height: auto!important;
+	top: 100px!important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	 
