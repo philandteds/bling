@@ -74,7 +74,9 @@
 		//Loop over each element in the set and return them to keep the chain alive.
 		return this.each(function() {
 			var $this = $(this);
-
+			
+			if ( $this.is(":empty") ) {
+			
 			$this.css({
 				width: imageWidth
 			});
@@ -219,6 +221,8 @@
 			  }
 			
 			});
+			
+			}
 
 		});
 		
