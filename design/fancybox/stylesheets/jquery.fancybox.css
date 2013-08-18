@@ -245,7 +245,7 @@ div.fancybox-inner {
 .fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened {
 	width: auto!important;
 	height: auto!important;
-	top: 100px!important;
+	top: 200px!important;
 	margin-left: auto;
 	margin-right: auto;
 }
