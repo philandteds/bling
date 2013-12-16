@@ -1,6 +1,5 @@
 {ezscript_require(
-		array(	'ezjsc::jquery',
-				'jquery-ui-1.8.22.custom.min.js',
+		array(	'jquery-ui-1.8.22.custom.min.js',
 				'jquery.ui.touch-punch.min.js',
 				'jquery.pt-slide-show.js'
 				))}
