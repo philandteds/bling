@@ -58,6 +58,6 @@ FrontendJavaScriptList[]=jquery.ui.touch-punch.min.js
 FrontendJavaScriptList[]=jquery.pt-slide-show.js
 
 # CLOUDZOOM
-FrontendCSSFileList[]=cloudzoom.js
+FrontendJavaScriptList[]=cloudzoom.js
 
 */ ?>
