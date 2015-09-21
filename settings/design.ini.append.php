@@ -60,4 +60,12 @@ FrontendJavaScriptList[]=jquery.pt-slide-show.js
 # CLOUDZOOM
 FrontendJavaScriptList[]=cloudzoom.js
 
+# REVOLVER
+FrontendJavaScriptList[]=revolver.min.js
+FrontendJavaScriptList[]=bean.min.js
+FrontendJavaScriptList[]=lodash.min.js
+FrontendJavaScriptList[]=revolver.js
+FrontendJavaScriptList[]=jquery.velocity.js
+FrontendJavaScriptList[]=slide.js
+
 */ ?>
