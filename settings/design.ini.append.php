@@ -18,10 +18,10 @@ FrontendCSSFileList[]=jquery.fancybox.css
 #FrontendCSSFileList[]=themes/light/light.css
 
 # JQSLIDER
-FrontendCSSFileList[]=basic-jquery-slider.css
+#FrontendCSSFileList[]=basic-jquery-slider.css
 
 # SPLASH
-FrontendCSSFileList[]=splashscreen.css
+#FrontendCSSFileList[]=splashscreen.css
 
 # SLIDER
 FrontendCSSFileList[]=pt-slide-show.css
@@ -40,15 +40,15 @@ FrontendJavaScriptList[]=jquery.fancybox-init.js
 #FrontendJavaScriptList[]=jquery.mousewheel-3.0.6.pack.js
 
 # NIVO SLIDER
-FrontendJavaScriptList[]=jquery.nivo.slider.pack.js
+#FrontendJavaScriptList[]=jquery.nivo.slider.pack.js
 #FrontendJavaScriptList[]=jquery.nivo.slider.js
 
 # JQSLIDER
-FrontendJavaScriptList[]=basic-jquery-slider.min.js
+#FrontendJavaScriptList[]=basic-jquery-slider.min.js
 #FrontendJavaScriptList[]=basic-jquery-slider.js
 
 # SPLASH
-FrontendJavaScriptList[]=jquery.splashscreen.js
+#FrontendJavaScriptList[]=jquery.splashscreen.js
 #FrontendJavaScriptList[]=jquery.splashscreen.init.js
 FrontendJavaScriptList[]=jquery.cookie.js
 
