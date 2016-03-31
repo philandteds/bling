@@ -13,10 +13,11 @@ div.pt-slide-show-view-elem img {
 }
 
 .pt-slide-show-slider {
-    background-color: #CCCCCC;
+    background: #CCCCCC;
     height: 5px;
     position: relative;
     margin: 0 19px;
+    width: 200px;
 }
 
 .pt-slide-show-slider-left-fix,
