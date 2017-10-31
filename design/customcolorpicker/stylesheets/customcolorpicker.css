@@ -35,7 +35,7 @@ span.colorpicker span.colorbox
 
 span.colorpicker span.hexbox, .colorpicker span.bgbox
 {
-    font-size: normal 10px verdana;
+    font-size: 12px;
     height: 1%;
     
 }
