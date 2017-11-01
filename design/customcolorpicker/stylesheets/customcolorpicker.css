@@ -40,7 +40,7 @@ span.colorbox b {
     height:40px;
     margin:4px;
     overflow:hidden;/*for IE6*/
-    border: 2px solid transparent;
+    border: 2px solid #fff;
 }
 span.colorbox b.selected {
     border-color: #39f;	
