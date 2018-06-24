@@ -46,8 +46,7 @@
 }
 
 div.fancybox-inner {
-	
-	height: 100%!important;
+	width: auto!important;
 	padding: 0;
 	margin: 0;
 	position: relative;
