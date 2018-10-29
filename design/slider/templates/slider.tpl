@@ -32,7 +32,7 @@
 
 <script type="text/javascript">
 <!--
-	head( function() {ldelim}
+	head.ready( function() {ldelim}
   		$('{$selector|wash}').ptSlideShow( [{$images|implode(',')}], '{$image_width|wash}', '{$image_height|wash}');
   	{rdelim});
 //-->
